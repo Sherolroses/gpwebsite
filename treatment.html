@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treatments</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="treatment.html">Treatment</a>
+        <a href="contact.html">Contact</a>
+    </nav> 
+    <div class="container">
+        <h1>Our Treatments</h1>
+        <p>we offer a wide range of medical services to cater to your needs.</p>
+        
+        <div class="treatment-section">
+            <h2>🩺 General Medical Consultations</h2>
+            <p>Our experienced doctors provide comprehensive medical consultations to diagnose and treat various health conditions.</p>
+        
+        <div class="treatment-section">
+            <h2>💊 Chronic Disease Management</h2>
+            <p>We offer personalized care and management for chronic diseases such as diabetes, hypertension, and asthma.</p>
+            
+        </div>
+        
+        <div class="treatment-section">
+            <h2>🧪 Preventative Health Screenings</h2>
+            <p>Our preventative health screenings help detect health issues early, allowing for timely interventions and better outcomes.</p>
+            
+        </div>
+        
+        <div class="treatment-section">
+            <h2>🥗 Weight Loss Programs</h2>
+            <p>Our weight loss programs are designed to help you achieve a healthy weight and improve your overall well-being.</p>
+            
+        </div>
+        
+        <div class="treatment-section">
+            <h2>👩‍⚕️ Women's Health Services</h2>
+            <p>Our women's health services cater to the unique needs of women, including reproductive health, prenatal care, and menopause management.</p>
+            
+        </div>
+        
+        <div class="treatment-section">
+            <h2>👶 Pediatric Care</h2>
+            <p>Our pediatric care services provide comprehensive medical care for children, from routine check-ups to vaccinations and illness management.</p>
+            section class="book-appointment"> 
+
+<button onclick="toggleBookingForm()" class="bold-button">Book Now</button> 
+<!-- Hidden Booking Form --> 
+<div id="booking-form" style="display: none;"> 
+<h3>Fill in your details</h3> 
+<form action="submit_booking.php" method="post"> 
+<label for="fullname">Full Name:</label> 
+<input type="text" id="fullname" name="fullname" required> 
+<label for="email">Email:</label> 
+<input type="email" id="email" name="email" required> 
+<label for="date">Preferred Date:</label> 
+<input type="date" id="date" name="date" required> 
+<label for="time">Preferred Time:</label> 
+<input type="time" id="time" name="time" min="09:00" max="17:00" step="900" required> 
+<button type="submit">Submit Appointment</button> 
+</form> 
+</div> 
+</section> 
+    <script src="script.js"></script> <!-- Link to external JS file --> 
+
+</body>
+</html>
