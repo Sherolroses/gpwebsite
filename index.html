@@ -1,0 +1,86 @@
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+<head> 
+
+<meta charset="UTF-8"> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<link rel="stylesheet" href="style.css"> 
+
+<title>Dr Mopp</title> 
+
+<link rel="stylesheet" href="css/style.css"> 
+
+</head> 
+
+<body> 
+
+<nav> 
+<a href="index.html">Home</a> 
+<a href="about.html">About</a> 
+<a href="treatment.html">Treatment</a> 
+<a href="contact.html">Contact</a> 
+</nav>  
+
+<img src="logo.jpeg" width="200" height="90" class="logo" alt="Dr Mopp Logo"> 
+
+<main> 
+
+<div class="image-section"> 
+
+<img src="drmopp.jpeg" alt="Dr Mopp" class="main-image"> 
+
+</div> 
+
+<section class="blank-space"></section> <!-- Blank space section --> 
+
+ 
+ 
+
+<section class="book-appointment"> 
+
+<button onclick="toggleBookingForm()" class="bold-button">Book Now</button> 
+<!-- Hidden Booking Form --> 
+<div id="booking-form" style="display: none;"> 
+<h3>Fill in your details</h3> 
+<form action="submit_booking.php" method="post"> 
+<label for="fullname">Full Name:</label> 
+<input type="text" id="fullname" name="fullname" required> 
+<label for="email">Email:</label> 
+<input type="email" id="email" name="email" required> 
+<label for="date">Preferred Date:</label> 
+<input type="date" id="date" name="date" required> 
+<label for="time">Preferred Time:</label> 
+<input type="time" id="time" name="time" min="09:00" max="17:00" step="900" required> 
+<button type="submit">Submit Appointment</button> 
+</form> 
+</div> 
+</section>  
+<!-- Location Section --> 
+<section class="location"> 
+<h3>Find Us Here</h3> 
+<p>154 Belvedere Road, Claremont</p> 
+<button onclick="window.open('https://www.google.com/maps?q=154+Belvedere+Road+Claremont', '_blank')"> 
+<i class="fas fa-map-marker-alt"></i> View on Google Maps 
+</button> 
+</section> 
+</main> 
+<script src="script.js"></script> <!-- Link to external JS file --> 
+
+<footer> 
+
+<p>&copy; 2025 Dr Mopp. All rights reserved.</p> 
+
+</footer> 
+
+</body> 
+
+</html> 
+
+ 
+ 
+
+ 
