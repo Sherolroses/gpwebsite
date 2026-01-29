@@ -25,7 +25,5 @@ This project was created as part of my learning in web development and software 
 - **Backend / Server-side:** ( Python / PHP / Node.js )  
 - **Database:** SQL / SQLite / MySQL  
 - **Tools:** VS Code, Code::Blocks, Qt Creator, Python Notebook  
-- **Version Control:** Git & GitHub
-
 
 
