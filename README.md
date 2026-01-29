@@ -23,7 +23,7 @@ This project was created as part of my learning in web development and software 
 ## Technologies Used
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend / Server-side:** ( Python / PHP / Node.js )  
-- **Database:** SQL / SQLite / MySQL  
+- **Database:** SQL /  MySQL  
 - **Tools:** VS Code
 
 
